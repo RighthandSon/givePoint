@@ -23,7 +23,7 @@ It is used with `/give "player name" x`
 Note that "" are needed if the player has a space in their name. X is the number of points the player is giving away, player has to have more than 0 and can't give away more than they have.
 
 ## Credits and License
-Licensed under [GPLv2][/LICENSE.md]
+Licensed under [GPLv2](/LICENSE.md)
 
 Credit to players:
 - "Bertman"
