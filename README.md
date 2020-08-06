@@ -1,5 +1,5 @@
 # givePoint
- A plugin for [BZFlag][https://www.bzflag.org/] that allows players to give away their points.
+ A plugin for [BZFlag](https://www.bzflag.org) that allows players to give away their points.
 
 The Give Point plugin is a plugin to give points from one player to another.
 It is a plugin that lets the player using /give give their points (so long as
