@@ -31,7 +31,7 @@ BZ_PLUGIN(givePoints)
 
 const char* givePoints::Name()
 {
-    return "givePoints";
+    return "givePoints 1.0.0";
 }
 
 void givePoints::Init(const char* config)
@@ -80,6 +80,7 @@ bool givePoints::SlashCommand(int playerID, bz_ApiString command, bz_ApiString /
         if (params->size() != 1 && params->size() != 2)
         {
             bz_sendTextMessage(BZ_SERVER, playerID, "Syntax: 'Player callsign' '#' Number of points to give them, can't be more than you have. If the callsign you are trying to give points has a space use '' at the beginning and end.");
+            bz_freePlayerRecord(fromPlayer)
             return true;
         }
         bz_BasePlayerRecord* toPlayer;
